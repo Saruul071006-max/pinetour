@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+}
+.project1 {
+  flex-direction: column;
+}
+/* section 1 */
+
+.section1 {
+  height: 773px;
+  background-image: url("./HeroImage.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navigation {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.white {
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.En {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tombichig {
+  height: 773px;
+  flex-direction: column;
+}
+
+/* section 2 */
+.section2 {
+  height: 500px;
+  background-image: url("/4zuragar.png");
+}
+.zuragnuud {
+  width: 1202px;
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.zurag1 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  font-size: 37px;
+  line-height: 100%;
+  color: white;
+  background-image: url(/tsagaanlake.png);
+}
+.container {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(41, 41, 41, 0.4);
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  display: none;
+}
+.container:hover > .overlay {
+  display: block;
+}
+.zurag2 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  font-size: 37px;
+  line-height: 100%;
+  color: white;
+  background-image: url(/sum.png);
+}
+.zurag3 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  font-size: 37px;
+  line-height: 100%;
+  color: white;
+  background-image: url(/hovsgol.png);
+}
+.zurag4 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  font-size: 37px;
+  line-height: 100%;
+  color: white;
+  background-image: url(/togoo.png);
+}
+/* section 3  */
+.section3 {
+  height: 1022px;
+  background-image: url("/Roadmap.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.destination {
+  height: 204px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.dayshusnegt {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.day {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+}
+.daydotor {
+  display: flex;
+  justify-content: space-between;
+  width: 483px;
+  height: 48px;
+}
+.daybicig {
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.daylogo {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.loc-suhbaatar {
+  display: none;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 65px;
+  right: 22px;
+}
+.suhbaatar:hover {
+  border: 4px solid white;
+}
+.suhbaatar:hover ~ .loc-suhbaatar {
+  display: block;
+}
+.loc-sum {
+  display: none;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  right: 218px;
+  top: -46px;
+}
+.sum:hover {
+  border: 4px solid white;
+}
+.sum:hover ~ .loc-sum {
+  display: block;
+}
+.loc-togoo {
+  display: none;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  right: 351px;
+  top: 82px;
+}
+.togoo:hover {
+  border: 4px solid white;
+}
+.togoo:hover ~ .loc-togoo {
+  display: block;
+}
+.loc-tsagaanlake {
+  display: none;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  right: 402px;
+  top: -84px;
+}
+.tsgnlake:hover {
+  border: 4px solid white;
+}
+.tsgnlake:hover ~ .loc-tsagaanlake {
+  display: block;
+}
+.loc-hovsgol {
+  display: none;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  right: 235px;
+  top: -80px;
+}
+.hovsgol:hover {
+  border: 4px solid white;
+}
+.hovsgol:hover ~ .loc-hovsgol {
+  display: block;
+}
+/* section 4 */
+.section4 {
+  height: 1120px;
+  background-image: url(/section4.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 79px;
+}
+.cardcon {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.card1 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card2 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card3 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame1:hover {
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.4),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.frame1:hover > .package {
+  background-color: rgba(24, 24, 27, 0.9);
+  color: rgba(250, 250, 250, 1);
+}
+.frame2:hover {
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.4),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.frame2:hover > .package {
+  background-color: rgba(24, 24, 27, 0.9);
+  color: rgba(250, 250, 250, 1);
+}
+.frame3:hover {
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.4),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.frame3:hover > .package {
+  background-color: rgba(24, 24, 27, 0.9);
+  color: rgba(250, 250, 250, 1);
+}
+.deedtal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 384px;
+  height: 92px;
+  padding-bottom: 12px;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.une {
+  padding-left: 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 32px;
+}
+.too {
+  width: 336px;
+  height: 49px;
+}
+.includes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 24px;
+
+  width: 336px;
+  height: 180px;
+}
+.package {
+  width: 336px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(164, 209, 226, 1);
+  border-radius: 50px;
+  margin-top: 38.5px;
+}
+.popular {
+  width: 91px;
+  height: 27px;
+  background-color: rgba(105, 114, 181, 1);
+  border-radius: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.doodbicig {
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 265px;
+}
+.Ig-fb-space {
+  width: 358px;
+  height: 44px;
+  gap: 16px;
+}
+.ig-fb {
+  width: 171px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50px;
+}
